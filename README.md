@@ -7,7 +7,7 @@ Tes Beban Absensi Kehadiran Odoo Menggunakan Locust.io
 4. Impor res.users.csv
 5. Impor hr.employee.csv
 6. Buat python virtual environment untuk meng-install Locust.io
-   ```python3 -m venv locust```
+       python3 -m venv locust
 7. Aktifkan python virtual environment tersebut
 8. Install Locust.io, OdooLocust, dan Odoo Client Library
 9. Edit file attend.py
