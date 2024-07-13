@@ -13,12 +13,14 @@ Tes Beban Absensi Kehadiran Odoo Menggunakan Locust.io
 8. Aktifkan python virtual environment tersebut
 9. Install Locust.io, OdooLocust, dan Odoo Client Library
 10. Edit file attend.py
-11. Jalankan Locust.io
-12. Buka Locust.io di alamat http://localhost:8089
-13. Klik Start
-14. Atur parameter
+11. Edit file odoo_stat.sh
+12. Buat cron schedule per menit untuk odoo_stat.sh
+13. Jalankan Locust.io
+14. Buka Locust.io di alamat http://localhost:8089
 15. Klik Start
-16. Jika selesai maka klik Download
-17. Klik Download Report
-18. Klik tulisan Download Report di kanan atas
-19. Evaluasi hasil tes
+16. Atur parameter
+17. Klik Start
+18. Jika selesai maka klik Download
+19. Klik Download Report
+20. Klik tulisan Download Report di kanan atas
+21. Evaluasi hasil tes
