@@ -19,7 +19,7 @@ Tes Beban Absensi Kehadiran Odoo Menggunakan Locust.io
 
         pip3 install locust OdooLocust odoo-client-lib
     
-12. Sesuaikan port, database, login, dan password di file attend.py dengan pengguna administrator Odoo yang digunakan
+12. Sesuaikan port, database, login, dan password di file attend.py dengan pengguna administrator Odoo
 13. Ubah dbname di file odoo_stat.sh dengan nama database baru dari nomor 2.
 14. Buat jadwal eksekusi per menit untuk odoo_stat.sh menggunakan Linux cron
 
@@ -36,7 +36,7 @@ Tes Beban Absensi Kehadiran Odoo Menggunakan Locust.io
 21. Jika selesai maka klik Download
 22. Klik Download Report
 24. Klik tulisan Download Report di kanan atas
-25. Evaluasi hasil tes
+25. Evaluasi hasil tes dan data kinerja server di file odoo_stat.csv dan pg_stat.csv
 
 File attend_separate_login.py berisi skenario tes bahwa setiap user selalu login menggunakan akunnya sendiri.
 
