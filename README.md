@@ -38,5 +38,5 @@ Tes Beban Absensi Kehadiran Odoo Menggunakan Locust.io
 24. Klik tulisan Download Report di kanan atas
 25. Evaluasi hasil tes
 
-File attend_seprate_login.py berisi skenario tes bahwa setiap user selalu login menggunakan akunnya sendiri.
+File attend_separate_login.py berisi skenario tes bahwa setiap user selalu login menggunakan akunnya sendiri.
 
