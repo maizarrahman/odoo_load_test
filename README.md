@@ -39,4 +39,4 @@ Tes Beban Absensi Kehadiran Odoo Menggunakan Locust.io
 25. Evaluasi hasil tes dan data kinerja server di file odoo_stat.csv dan pg_stat.csv
 
 File attend_separate_login.py berisi skenario tes bahwa setiap user selalu login menggunakan akunnya sendiri.
-
+File login.py berisi skenario random login atau brute-force attack.
