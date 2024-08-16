@@ -18,10 +18,14 @@ class Employee(OdooLocustUser):
     @task(10)
     def attend(self):
         """Random employee attends"""
-        # 1. Pick random employee
+        # 1. Pick random employee who does not check in
         emp_model = self.client.get_model('hr.employee')
         emp_ids = emp_model.search([])
         emp_id = random.choice(emp_ids)
+        attendance_state = emp_model.read(emp_id, ["attendance_state"])
+        while attendance_state == 'checked_in':
+            emp_id = random.choice(emp_ids)
+            attendance_state = emp_model.read(emp_id, ["attendance_state"])
 
         # 2. Attend
         att_model = self.client.get_model('hr.attendance')
